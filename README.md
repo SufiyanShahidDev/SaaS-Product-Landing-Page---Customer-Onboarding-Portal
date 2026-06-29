@@ -255,11 +255,11 @@ Building this project strengthened my understanding of:
 
 # 👨‍💻 Author
 
-**Sufiyan Shahid**
+**Sufiyan Shahid Dev**
 
 Frontend Developer
 
-* LinkedIn: *(Add your LinkedIn profile here)*
+* LinkedIn: *(https://www.linkedin.com/feed/update/urn:li:activity:7477367892779360256/)*
 
 ---
 
