@@ -29,57 +29,51 @@ Everything is built without a backend, demonstrating how browser technologies an
 
 # 📸 Project Preview
 
-
 ## Landing Page
 
-```
-![Hero Section](./assets/readme-assets//hero-section.png)
+![Hero Section](./assets/readme-assets/hero-section.png)
 
-```
+---
 
 ## Features Section
 
-```
-<img width="1920" height="889" alt="features" src="https://github.com/user-attachments/assets/3962f45c-c760-44a7-b1a3-0f1609247a87" />
+![Features](./assets/readme-assets/features.png)
 
-```
+---
 
 ## Pricing Section
 
-```
-assets/pricing.png
-```
+![Pricing](./assets/readme-assets/pricing.png)
+
+---
 
 ## Login Page
 
-```
-assets/login.png
-```
+![Login](./assets/readme-assets/login.png)
+
+---
 
 ## Signup Page
 
-```
-assets/signup.png
-```
+![Signup](./assets/readme-assets/signup.png)
+
+---
 
 ## Customer Onboarding
 
-```
-assets/onboarding.png
-```
+![Onboarding](./assets/readme-assets/onboarding.png)
 
-## Dashboard
+---
 
-```
-assets/dashboard.png
-```
+## Dashboard Preview
+
+![Dashboard](./assets/readme-assets/dashboard.png)
+
+---
 
 ## Light Mode
 
-```
-assets/responsive.png
-```
-
+![Light Mode](./assets/readme-assets/Light-mode.png)
 ---
 
 # ✨ Features
