@@ -33,13 +33,15 @@ Everything is built without a backend, demonstrating how browser technologies an
 ## Landing Page
 
 ```
-assets/hero-section.png
+<img width="1920" height="906" alt="hero-section" src="https://github.com/user-attachments/assets/40cbf1ce-30a6-4c81-9107-de21f9d9c167" />
+
 ```
 
 ## Features Section
 
 ```
-assets/features.png
+<img width="1920" height="889" alt="features" src="https://github.com/user-attachments/assets/3962f45c-c760-44a7-b1a3-0f1609247a87" />
+
 ```
 
 ## Pricing Section
