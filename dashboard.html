@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>SaaSFlow | Dashboard Preview</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body class="dashboard-body">
+    <section class="container-fluid p-0">
+        <section class="dashboard-layout">
+            <aside class="dashboard-sidebar text-white">
+                <section class="brand-inline mb-4"><img class="brand-mark" src="./assets/logo.png" alt="">SaaSFlow</section>
+                <section class="profile-card">
+                    <section class="avatar large" id="profileAvatar">U</section>
+                    <h5 class="mt-3 mb-1" id="profileName">User Name</h5>
+                    <p class="text-muted mb-3" id="profileRole">Growth Manager</p>
+                    <a href="index.html" class="btn btn-outline-light btn-sm w-100">Back to site</a>
+                </section>
+                <nav class="dashboard-nav mt-4">
+                    <a href="#analytics" class="active"><i class="fa-solid fa-chart-pie me-2"></i>Analytics</a>
+                    <a href="#activity"><i class="fa-solid fa-clock me-2"></i>Activity</a>
+                    <a href="#settings"><i class="fa-solid fa-gear me-2"></i>Settings</a>
+                </nav>
+            </aside>
+            <main class="dashboard-main">
+                <section class="dashboard-topbar mb-4">
+                    <section>
+                        <h2 class="mb-1">Dashboard preview</h2>
+                        <p class="text-muted mb-0">A frontend-only snapshot of customer data and activity.</p>
+                    </section>
+                    <section class="d-flex gap-2">
+                        <button class="btn theme-nav-btn" type="button" title="Switch to light mode">
+                            <i class="fa-solid fa-moon"></i>
+                            <span class="d-none d-md-inline">Theme</span>
+                        </button>
+                        <a href="onboarding.html" class="btn btn-primary">Resume onboarding</a>
+                    </section>
+                </section>
+                <section id="analytics" class="row g-4">
+                    <section class="col-md-6 col-xl-3">
+                        <section class="stat-card">
+                            <p class="text-muted mb-1">Revenue</p>
+                            <h3>$24.8k</h3><small class="text-success"><i class="fa-solid fa-arrow-up"></i>
+                                12.4%</small>
+                        </section>
+                    </section>
+                    <section class="col-md-6 col-xl-3">
+                        <section class="stat-card">
+                            <p class="text-muted mb-1">Customers</p>
+                            <h3>1,450</h3><small class="text-success"><i class="fa-solid fa-arrow-up"></i> 8.2%</small>
+                        </section>
+                    </section>
+                    <section class="col-md-6 col-xl-3">
+                        <section class="stat-card">
+                            <p class="text-muted mb-1">Retention</p>
+                            <h3>91%</h3><small class="text-success"><i class="fa-solid fa-arrow-up"></i> 2.1%</small>
+                        </section>
+                    </section>
+                    <section class="col-md-6 col-xl-3">
+                        <section class="stat-card">
+                            <p class="text-muted mb-1">Tasks done</p>
+                            <h3>38</h3><small class="text-warning"><i class="fa-solid fa-circle-notch"></i> 4
+                                open</small>
+                        </section>
+                    </section>
+                </section>
+                <section class="row g-4 mt-1">
+                    <section class="col-lg-8" id="activity">
+                        <section class="panel-card h-100">
+                            <section class="panel-head">
+                                <h5 class="mb-0">Recent activity</h5>
+                                <span class="badge text-bg-dark">Live sample</span>
+                            </section>
+                            <section class="activity-list">
+                                <section class="activity-item">
+                                    <section class="activity-icon"><i class="fa-solid fa-user-plus"></i></section>
+                                    <section>
+                                        <h6 class="mb-1">New team member invited</h6>
+                                        <p class="mb-0 text-muted">Admin invited 3 members to the growth workspace.</p>
+                                    </section>
+                                </section>
+                                <section class="activity-item">
+                                    <section class="activity-icon"><i class="fa-solid fa-credit-card"></i></section>
+                                    <section>
+                                        <h6 class="mb-1">Plan upgraded</h6>
+                                        <p class="mb-0 text-muted">Workspace moved from Starter to Growth.</p>
+                                    </section>
+                                </section>
+                                <section class="activity-item">
+                                    <section class="activity-icon"><i class="fa-solid fa-pen-to-square"></i></section>
+                                    <section>
+                                        <h6 class="mb-1">Onboarding completed</h6>
+                                        <p class="mb-0 text-muted">Customer profile was saved successfully in local
+                                            storage.</p>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="col-lg-4" id="settings">
+                        <section class="panel-card h-100">
+                            <section class="panel-head">
+                                <h5 class="mb-0">User profile</h5>
+                            </section>
+                            <section class="profile-summary">
+                                <p><strong>Email:</strong> <span id="profileEmail">user@example.com</span></p>
+                                <p><strong>Company:</strong> <span id="profileCompany">SaaS Company</span></p>
+                                <p><strong>Goal:</strong> <span id="profileGoal">Lead generation</span></p>
+                            </section>
+                            <hr>
+                        </section>
+                    </section>
+                </section>
+            </main>
+        </section>
+    </section>
+    
+    <!-- Dashboard JS file -->
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>
